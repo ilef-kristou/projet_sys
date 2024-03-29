@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.example.grpc;
+
+service MessagingService {
+  rpc SendMessage (MessageRequest) returns (MessageResponse) {}
+}
+
+message MessageRequest {
+  string message = 1;
+}
+
+message MessageResponse {
+  string response = 1;
+}

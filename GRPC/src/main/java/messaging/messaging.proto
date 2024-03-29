@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package messaging;
+
+option java_multiple_files = true;
+option java_package = "messaging";
+option java_outer_classname = "MessagingProto";
+
+service MessagingService {
+  rpc SendMessage(MessageRequest) returns (MessageResponse);
+  rpc GetMessages(UserRequest) returns (MessageList);
+}
+
+message MessageRequest {
+  string sender_id = 1;
+  string receiver_id = 2;
+  string message = 3;
+}
+
+message UserRequest {
+  string user_id = 1;
+}
+
+message MessageResponse {
+  string status = 1;
+}
+
+message MessageList {
+  repeated Message messages = 1;
+}
+
+message Message {
+  string sender_id = 1;
+  string receiver_id = 2;
+  string content = 3;
+}

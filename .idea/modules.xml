@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sockets/Sockets.iml" filepath="$PROJECT_DIR$/Sockets/Sockets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_RMI/java_RMI.iml" filepath="$PROJECT_DIR$/java_RMI/java_RMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projet_sys.iml" filepath="$PROJECT_DIR$/projet_sys.iml" />
+    </modules>
+  </component>
+</project>
