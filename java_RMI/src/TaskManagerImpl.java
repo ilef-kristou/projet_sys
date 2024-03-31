@@ -6,7 +6,7 @@ import java.util.List;
 public class TaskManagerImpl extends UnicastRemoteObject implements TaskManager {
     private List<String> tasks;
 
-    protected TaskManagerImpl() throws RemoteException {
+    public TaskManagerImpl() throws RemoteException {
         super();
         tasks = new ArrayList<>();
     }

@@ -4,49 +4,34 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dd43a70-1040-494d-b954-11897a96894f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageListOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageRequestOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageResponseOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessagingClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessagingProto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessagingServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessagingServiceGrpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/UserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/UserRequestOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRPC/src/main/java/messaging/messaging.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/Sockets.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/src/Client/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/src/Server/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/src/Server/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/src/common/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_RMI/java_RMI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_RMI/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_RMI/src/RMIClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_RMI/src/RMIServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_RMI/src/TaskManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_RMI/src/TaskManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_sys.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tech_2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tech_2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tech_2/src/main/java/com/example/grpc/MessagingClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tech_2/src/main/java/com/example/grpc/MessagingServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tech_2/src/main/java/com/example/grpc/proto/messaging1.proto" afterDir="false" />
+    <list default="true" id="3dd43a70-1040-494d-b954-11897a96894f" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/messaging/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/messaging/MessageList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageListOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/messaging/MessageListOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/messaging/MessageOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/messaging/MessageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageRequestOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/messaging/MessageRequestOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/messaging/MessageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessageResponseOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/messaging/MessageResponseOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessagingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/client/MessagingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessagingProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/messaging/MessagingProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessagingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/server/MessagingServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/MessagingServiceGrpc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/messaging/UserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/UserRequestOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/messaging/UserRequestOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRPC/src/main/java/messaging/messaging.proto" beforeDir="false" afterPath="$PROJECT_DIR$/GRPC/src/main/java/com/example/grpc/proto/messaging.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_RMI/src/RMIServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_RMI/src/RMIServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_RMI/src/TaskManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_RMI/src/TaskManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech_2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech_2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech_2/src/main/java/com/example/grpc/MessagingClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech_2/src/main/java/com/example/grpc/MessagingServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech_2/src/main/java/com/example/grpc/proto/messaging1.proto" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,38 +93,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ilefk/projetjava/projet_sys&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ilefk/projetjava/projet_sys/Sockets/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "OverrideImplement.generate.javadoc": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/ilefk/projetjava/projet_sys",
+    "onboarding.tips.debug.path": "C:/Users/ilefk/projetjava/projet_sys/Sockets/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="messaging" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ilefk\projetjava\projet_sys\GRPC\src\main\java\messaging" />
       <recent name="C:\Users\ilefk\projetjava\projet_sys\GRPC\src\main\java\com\example\grpc\proto" />
+      <recent name="C:\Users\ilefk\projetjava\projet_sys\GRPC\src\main\java\messaging" />
       <recent name="C:\Users\ilefk\projetjava\projet_sys\GRPC\src\io\grpc" />
       <recent name="C:\Users\ilefk\projetjava\projet_sys\GRPC\src" />
       <recent name="C:\Users\ilefk\projetjava\projet_sys\GRPC" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="MessagingServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.grpc.proto.MessagingServer" />
+      <module name="grpc-module (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.grpc.proto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed (1)" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
@@ -223,6 +224,11 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MessagingServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -233,6 +239,14 @@
       <option name="presentableId" value="Default" />
       <updated>1711146886812</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1711727542920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711727542920</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -242,6 +256,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

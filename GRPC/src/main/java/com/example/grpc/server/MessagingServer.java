@@ -1,8 +1,10 @@
-package messaging;
+package com.example.grpc.server;
 
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 import io.grpc.stub.StreamObserver;
+import com.example.grpc.messaging.MessageList;
+import com.example.grpc.messaging.MessageRequest;
 
 import java.io.IOException;
 

@@ -1,8 +1,10 @@
-package messaging;
+package com.example.grpc.client;
 
+import com.example.grpc.messaging.Message;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.StatusRuntimeException;
+import com.example.grpc.messaging.*;
 
 public class MessagingClient {
     private final ManagedChannel channel;

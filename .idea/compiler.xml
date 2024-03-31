@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="grpc-module (1)" />
+        <module name="GRPC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="GRPC" target="19" />
-      <module name="grpc-module" target="1.6" />
+      <module name="grpc-module" target="1.8" />
+      <module name="grpc-module (1)" target="1.6" />
+      <module name="grpc-module (2)" target="1.8" />
+      <module name="grpc-module (3)" target="1.8" />
       <module name="GRPC1" target="19" />
       <module name="tech_2" target="19" />
+      <module name="untitled" target="19" />
+      <module name="untitled1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
