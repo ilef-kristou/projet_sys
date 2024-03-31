@@ -14,20 +14,20 @@ Le module Java RMI gère une liste de tâches, permettant d'ajouter, de supprime
 
 1. Cloner le dépôt GitHub :
    ```bash
-   $ git clone https://github.com/ilef-kristou/projet_sys
+   git clone https://github.com/ilef-kristou/projet_sys
 2. Naviguer vers le module Java RMI :
    ```bash
-   $ cd C:\Users\ilefk\projetjava\projet_sys\java_RMI
+   cd C:\Users\ilefk\projetjava\projet_sys\java_RMI
 3. Compiler les fichiers sources pour produire les fichiers '.class' correspondants
    ```bash
-   $ javac TaskManager.java
-   $ javac TaskManagerImpl.java
+   javac TaskManager.java
+   javac TaskManagerImpl.java
 4. Excécuter le serveur
    ```bash
-   $ java src\RMIServer.java
+   java src\RMIServer.java
 6. Exécuter le client
    ```bash
-   $ java src\RMIClient.java
+   java src\RMIClient.java
 ### Test:
 Après le deploiement, vous pouvez tester le fonctionnement en ajoutant, supprimant des taches dans la liste des taches et recupérant la liste compléte des taches.
 1. Lancer le serveur et les clients en suivant les instructions de deploiement ci-dessus.
@@ -50,14 +50,14 @@ Le service de messagerie gRPC permet d'envoyer des messages texte à un destinat
 ### Etapes de déploiement :
 1. Cloner le dépôt GitHub :
    ```bash
-   $ git clone https://github.com/ilef-kristou/projet_sys
+   git clone https://github.com/ilef-kristou/projet_sys
 2. Naviguer vers le module GRPC :
    ```bash
-   $ cd C:\Users\ilefk\projetjava\projet_sys\GRPC
+   cd C:\Users\ilefk\projetjava\projet_sys\GRPC
 3. Assurez-vous d'avoir les dépendances requises et les outils installés sur votre système. Veuillez vous référer au fichier pom.xml pour les dépendances Maven.
 4. Générez les classes Java à partir du fichier proto en exécutant la commande suivante :
    ```bash
-   $mvn clean package
+   mvn clean package
 5. Démarrez le serveur en exécutant la classe MessagingServer.java.
 6. Lancez l'application client en exécutant la classe MessagingClient.java.
 ### Test :
@@ -76,26 +76,26 @@ Le service de chat basé sur les sockets permet l'envoi de messages texte à un 
 
 1. Cloner le dépôt GitHub :
    ```bash
-   $ git clone https://github.com/ilef-kristou/projet_sys
+   git clone https://github.com/ilef-kristou/projet_sys
 2. Naviguer vers le module Sockets :
    ```bash
-   $ cd C:\Users\ilefk\projetjava\projet_sys\Sockets
+   cd C:\Users\ilefk\projetjava\projet_sys\Sockets
 3. Compiler les fichiers du serveur pour produire les fichiers '.class' correspondantes
    ```bash
-   $ javac src\server\ChatServer.java
-   $ javac src\server\ClientHandler.java
+   javac src\server\ChatServer.java
+   javac src\server\ClientHandler.java
 4. Compiler les fichiers du client pour produire le fichiers '.class' correspondant
    ```bash 
-   $ javac src\server\ChatClient.java
+   javac src\server\ChatClient.java
 5. Compiler le fichier Message.java:
    ```bash
-   $ javac src\common\Message.java
+   javac src\common\Message.java
 6. Exécuter le serveur :
    ```bash
-   $java src\Server\ChatServer.java
+   java src\Server\ChatServer.java
 7. Excécuter le client :
    ```bash
-   $java src\Client\ChatClient.java
+   java src\Client\ChatClient.java
 ### Test :
 #### Test de connexion :
 1. Après le déploiement du serveur et du client, vérifiez que le serveur a démarré correctement et écoute sur le port spécifié.
